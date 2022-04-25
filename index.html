@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <style>
+    .tm-social{
+        width: 50px;
+        height: 50px;
+    }
+    </style>
+    <title>Escola de Front End</title>
+  </head>
+  <body>
+
+    <!--/navBar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <a class="navbar-brand text-dark" href="#">Escola de Front End</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-light" href="#">Home <span class="sr-only">(página atual)</span></a>
+            </li>
+         
+            <li class="nav-item active">
+              <a class="nav-link text-light" href="#">Sobre <span class="sr-only">(página atual)</span></a>
+            </li>
+
+            <li class="nav-item active">
+              <a class="nav-link text-light" href="#">Contato <span class="sr-only">(página atual)</span></a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Cursos
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Bootstrap </a>
+                <a class="dropdown-item" href="#">CSS</a>
+                <a class="dropdown-item" href="#">JAVASCRIPT</a>
+              </div>
+            </li>
+          
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </nav>
+    <!--/navBar-->
+
+    <!--carousel-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./assets/img/1.jpg" alt="Primeiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./assets/img/2.jpg" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./assets/img/3.jpg" alt="Terceiro Slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+    <!--/carousel-->
+
+    <!--jumbotron-->
+    <div class="jumbotron jumbotron-fluid bg-info">
+        <div class="container">
+          <h1 class="display-4 font-weight-bold text-dark"  >Escola de Front End - Totalmente Gratuito</h1>
+          <p class="lead font-weight-normal text-light">Inscrições abertas! Para participar e garantir uma vaga, faça seu cadastro.</p>
+        </div>
+      </div>
+    <!--/jumbotron-->
+
+    <!--cards-->
+    <div class="container">
+        <div class="card-columns">
+            <div class="card">
+              <img class="card-img-top" src="./assets/img/node.jpg" alt="Materiais Têxteis">
+              <div class="card-body">
+                <h5 class="card-title">Node JavaScript</h5>
+                <p class="card-text">
+                  A Formação Node.js, é um curso completo que vai do básico do Node.js, se aprofundado bastante no desenvolvimento web com Javascript para o back-end, com bibliotecas como Express.js, e bancos de dados como MongoDB e MySQL.
+                    </p>
+              </div>
+            </div>
+            <div class="card p-3">
+              <blockquote class="blockquote mb-0 card-body">
+                <p>“A Melhor forma de aprender Node.js é construindo aplicações na prática.”</p>
+              </blockquote>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="./assets/img/chocolatey.jpg" alt="Design Gráfico na Moda">
+              <div class="card-body">
+                <h5 class="card-title">Chocolatey</h5>
+                <p class="card-text">O Chocolatey é um servidor pago, que possui uma licença community com um pouco menos de recurso. Para quem precisa de um servidor apenas para automatizar a instalação de software, portanto o community atende muito bem. É possível subir pacotes personalizados no community.</p>
+                <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+              </div>
+            </div>
+            <div class="card bg-primary text-white text-center p-3 bg-info">
+              <blockquote class="blockquote mb-0">
+                <p class="text-write">Você vai estudar, praticar, discutir e se aprofundar em uma plataforma que respira tecnologia.</p>
+                <footer class="blockquote-footer">
+                </footer>
+              </blockquote>
+            </div>
+            <div class="card text-center">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text"> Mergulhe com profundidade e navegue em outras áreas de Tecnologia.</p>
+                <p class="card-text"><small class="text-muted">Atualizados 5 minutos atrás</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img" src="./assets/img/java.jpg" alt="Antropologia Cultural na Moda
+              ">
+            </div>
+            <div class="card p-3 text-right">
+              <blockquote class="blockquote mb-0">
+                <p>O curso é constantemente atualizado com novos conteúdos, e nós garantimos que ele estará sempre atualizado para a última versão LTS (Long Term Support) do Java, que atualmente é a versão 11 (lembre-se que, embora as versões 12 e 13 já estejam disponíveis, estas são versões de curta duração, que serão retiradas de circulação em poucos meses, assim como foi com as versões 9 e 10).</p>
+                <footer class="blockquote-footer">
+                  <small class="text-muted">
+                    Escola de Front End
+                </footer>
+              </blockquote>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Para quem é este curso:</h5>
+                <p class="card-text">Estudantes de cursos na área de computação,
+                  Interessados em aprender Java e Programação Orientada a Objetos de forma completa e profissional,
+                  Desenvolvedores que necessitam repassar fundamentos de Programação Orientada a Objetos,
+                  Interessados em aprender as principais ferramentas e frameworks do mercado relacionados a Java.</p>
+                <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+              </div>
+            </div>
+          </div>
+    </div>
+   
+    <!--/cards-->
+
+    <!--texto e vídeo-->
+    <div class="container">
+        <div class="row mt-5 mb-5">
+            <div class="col-md-6">
+             <h3 class="font-weight-bold text-dark shadow-none p-3 mb-5 bg-info rounded">Como o concurso funciona?</h3>
+             <p>Se você sempre sonhou em atuar na área da moda mas ainda é um profissional amador, a sua oportunidade chegou!
+
+              Desenvolva experiências web incríveis com HTML, CSS e JavaScript, além de se aprofundar nos principais frameworks do 
+              mercado, como React, Angular e Vue.JS. Domine JavaScript a fundo, para não depender de copiar e colar.</p>
+                <p>Inscrições abertas até o dia 15/11/2022</p>
+                <p>Não perca a oportunidade de fazer a Escola de Front End!</p>
+            </div>
+
+        <div class="col-md-6">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4q9yyHmro0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!--/texto e vídeo-->
+
+    <!--formulário para contato-->
+    <div class="row mb-5">
+          <div class="col md-12">
+              <h4 class="text-center text-dark font-weight-bold">
+                Realize sua inscrição aqui:
+              </h4>
+          </div>
+      </div>
+
+      <div class="row">
+          <div class="col md-12">
+            <form>
+              <div class="form-group font-weight-bold">
+                <label for="validationDefault01"> Nome Completo *</label>
+                <input type="text" class="form-control" id="validationDefault01" placeholder="Nome" required>
+              </div>
+                <div class="form-group font-weight-bold">
+                  <label for="exampleFormControlInput1 ">Endereço de email *</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com" required>
+                </div>
+                <div class="form-group font-weight-bold">
+                  <label for="exampleFormControlSelect1">Possui ensino superior?</label>
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Sim</option>
+                    <option>Não</option>
+                    
+                  </select>
+                </div>
+                <div class="form-group font-weight-bold">
+                <label for="exampleFormControlSelect1">Qual a sua especialidade?</label>
+                <select class="form-control" id="exampleFormControlSelect1" required>
+                  <option>Não Possui</option>
+                  <option>Back End</option>
+                  <option>Front End</option>
+                  <option>Banco de Dados</option>
+                  <option>Fullstack</option>
+                </select>
+              </div>
+                <div class="form-group font-weight-bold">
+                  <label for="exampleFormControlTextarea1">Por que você deseja participar da Escola de Front End? *</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                </div>
+
+                <div class="form-group d-flex justify-content-end">
+                    <button class="btn btn-outline-success">Enviar</button>
+                </div>
+              </form>
+          </div>
+
+        <div class="md-6">
+            <div>
+                <iframe class="w-100" width="500" height="400" frameborder="0" src="https://www.bing.com/maps/embed?h=400&w=500&cp=-23.54204705284134~-46.734596252441406&lvl=11&typ=d&sty=r&src=SHELL&FORM=MBEDV8" scrolling="no">
+                </iframe>
+                <div style="white-space: nowrap; text-align: center; width: 500px; padding: 6px 0;">
+                   <a id="largeMapLink" target="_blank" href="https://www.bing.com/maps?cp=-23.54204705284134~-46.734596252441406&amp;sty=r&amp;lvl=11&amp;FORM=MBEDLD">Exibir Mapa Grande</a> &nbsp; | &nbsp;
+                   <a id="dirMapLink" target="_blank" href="https://www.bing.com/maps/directions?cp=-23.54204705284134~-46.734596252441406&amp;sty=r&amp;lvl=11&amp;rtp=~pos.-23.54204705284134_-46.734596252441406____&amp;FORM=MBEDLD" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">Obter Trajeto</a>
+               </div>
+           </div>
+        </div>
+
+      </div>
+    <!--/formulário para contato-->
+
+
+    <!--rodapé-->
+    <hr>
+    <footer>
+
+      <div class="row mb-3">
+        <div class="col-md-12 d-flex justify-content-center">
+          
+            <a href="#" target="_blank" class= "p-3">
+                <img class= "tm-social p-20" src="assets/img/instagram (1).png" alt="logo instagram">
+                </a>
+                
+                <a href="https://www.linkedin.com/in/anderson-mendes-da-costa/" target="_blank" class= "p-3">
+                <img class= "tm-social p-20" src="assets/img/linkedin.png" alt="logo linkedin">
+                </a>
+                <a href="https://github.com/yMendyllKDll" target="_blank" class= "p-3">
+                <img class="tm tm-social p-20" src="./assets/img/github.png" alt="logo github">
+                </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <p class="text-center">
+            Todos os direitos reservados
+          </p>
+        </div>
+      </div>
+  
+    </footer>
+    <!--/rodapé-->
+    
+    <!-- jQuery, Popper.js, Bootstrap JS, Script JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>src="./assets/js/script.js"</script>
+  </body>
+</html>
